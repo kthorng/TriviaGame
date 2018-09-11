@@ -1,17 +1,77 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Trivia Time</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Trivia Game</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- Our style -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <!-- <link rel="icon" href="put my icon image here"> -->
     <!-- Dont forget to choose your fonts from google -->
-<body>
+
+  </head>
+  <body>
     
-</body>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img src="assets/images/MarioTitle.png" class="img-fluid text-center" id="title" alt="Super Mario">
+                <h1>Trivia Game</h1>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                    <img src="assets/images/Mario-Party-PNG-Pic.png" class="img-fluid text-center" alt="Mario Gang">
+                    <div>
+                        <h2 id="timer"></h2>
+                    </div>
+            </div>
+
+            <div class="col-md-8">
+                    <div id="start-game" class="start-game-text">
+                        <h2>It's a me, ah Mario!</h2>
+                        <p>Or is it?  Lets put your <i>Super Mario</i> knowledge to the test and see if you have what it takes in 60 seconds or less to get a <b>1Up</b>.</p>
+                        <p>Each correct muliple choice answer will be counted towards a <b>1Up</b>, the game is over once you click Done or the time runs out.</p>
+                        <div class="btn btn-primary" id="start-button">Start</div>
+                    </div>
+
+                <div>
+                    <div id="questions"></div>
+                </div>
+
+                <div id="results">
+                    <h2>The results are in:</h2>
+                    <p id="right"></p>
+                    <p id="wrong"></p>
+                    <p id="unanswered"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <hr>
+                    <p>&copy;Keo Design</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
     <script src="assets/javascript/app.js"></script>
+  </body>
 </html>
