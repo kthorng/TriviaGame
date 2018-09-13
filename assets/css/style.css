@@ -5,6 +5,65 @@ html {
     overflow-x: visible;
 }
 
+body {
+    background: #3399ff;
+    /* color: #ffff00; */
+    /* color: #00cc66; */
+    color: #cc0000;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+
+p {
+    font-size: 12px;
+}
+
+#top {
+    background: #3399ff;
+}
+
+#middle {
+    background: #3399ff;
+}
+
+#bottom {
+    background: #3399ff;
+    height: 200px;
+}
+
 #results {
     display: none;
+}
+
+#questions {
+    line-height: 30px;
+}
+
+#title {
+    height: 150px;
+}
+
+h2 {
+    /* color: #cc0000; */
+    color: #ffcc00;
+    font-family: 'Faster One', cursive;
+    font-size: 34px;
+}
+
+h1 {
+    /* color: #cc0000; */
+    color: #00cc66;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.form-check-label {
+    color: #ffcc00; 
+}
+
+#question {
+    font-size: 15px;
+}
+
+.form-check-input {
+    font-size: 50px;
 }
